@@ -1,0 +1,51 @@
+body{
+  margin-top:0px;
+}
+.nav{
+  
+}
+
+ul.nav > li {
+  display: inline;
+  text-align: center;
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+ul.nav > li:hover{
+color:blue;
+cursor:pointer;
+}
+
+.sec_1{
+  height: 631px;
+  background-color: #AFAAAA;
+
+}
+.sec_2{
+  height: 631px;
+  background-color: #626060;
+
+}
+
+.sec_3{
+  height: 631px;
+  background-color: #AFAAAA;
+
+
+}
+.cont{
+  height: 631px;
+  background-color: #626060;
+}
+
+.pos{
+  float:left;
+}
+
+.nav_cont{
+
+  position: fixed;
+  background-color: white;
+  width: 100%
+}
