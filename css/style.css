@@ -14,7 +14,7 @@ body{
   background-color: white;
   vertical-align: baseline ;
   font-family: 'Source Sans Pro', Arial, sans-serif;
-  color: #676d79;
+  color: #676d79 !important;
 }
 
 .sec_cont{
@@ -68,6 +68,7 @@ body{
     line-height: 38px;
     text-align: center;
     width: 100px;
+    color: #676d79;
     
 } 
 
@@ -92,15 +93,62 @@ body{
 
 .c_gray1{
   background-color: gray;
-  height:500px;
-  margin-top: 10px;
+  height:100vh;
+
+
+  
 }
 
 .c_gray2{
   background-color: #C3C2C2;
-  height:500px;
+  height:100vh;
+}
+
+.cont_navh{
+  float: right;
+  margin: 0px
+  border:0px;
+  padding: 0px;
+  position: fixed;
+  z-index: 100;
+}
+
+.ul_navh{
+margin: 0px;
+padding: 0px;
+border:0px;
+
+
 }
 
 
+.cont_divi{
+ position: relative;
+    margin: 68px auto;
+    width: 1000px;
+}
 
+.div_img{
+  position: relative;
+}
 
+.pincipal_img{
+  width:100%;
+  max-width:1000px;
+  min-width: 1px;
+}
+
+@media (max-width: 1000px){
+
+  .cont_divi{
+
+   
+    width: auto;
+    margin: 10px;
+    
+    
+  } 
+
+  
+  
+}

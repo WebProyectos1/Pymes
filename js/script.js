@@ -14,7 +14,7 @@
 		    enlace  = $(this).attr('href');
 
 		    $('html, body').animate({
-		    	scrollTop: $(enlace).offset().top
+		    	scrollTop: $(enlace).offset().top - 50
 		    }, 1000);
 
 		 });
