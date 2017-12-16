@@ -3,54 +3,54 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
+    <link href='css/onepage-scroll.css' rel='stylesheet' type='text/css'>
     <title>Landing Page</title>
   </head>
-  <header class="head_cont">
-  		<div class="right">
-  			<ul class="ul_nav">
-  				<li class="li_nav"><a href="#ancla1" class="a_nav ancla">Nosotros</a></li>
-  				<li class="li_nav"><a href="#ancla2" class="a_nav ancla">Servicios</a></li>
-  				<li class="li_nav"><a href="#ancla3" class="a_nav ancla">Contactanos</a></li>
-  			</ul>
-  		</div>
-  	</header>
+  
   <body>
-
+  <header class="head_cont">
+      <div class="right">
+        <ul class="ul_nav">
+          <li class="li_nav"><a href="#ancla1" class="a_nav ancla" id="btn_sup1">Nosotros</a></li>
+          <li class="li_nav"><a href="#ancla2" class="a_nav ancla" id="btn_sup2">Servicios</a></li>
+          <li class="li_nav"><a href="#ancla3" class="a_nav ancla" id="btn_sup3">Contactanos</a></li>
+        </ul>
+        
+      </div>
+    </header> 
+     <ul class="min_ul_nav">
+        <li class="min_li_nav"><a class="min_a_nav ancla2" href="#ancla1" id="btn_lat1"></a></li>
+        <li class="min_li_nav"><a class="min_a_nav ancla2" href="#ancla2" id="btn_lat2"></a></li>
+        <li class="min_li_nav"><a class="min_a_nav ancla2" href="#ancla3" id="btn_lat3"></a></li>
+     </ul> 
   	
-    <div class="sec_cont">
-    	<div class="c_gray1" id="ancla1">
-    		Nosotros
+    <div class="sec_cont main">
+     
+    	<section class="c_gray1 " id="ancla1">
+      	 Nosotros
         <div class="cont_divi">
-          <div class="div_img"><img class="pincipal_img" src="img/business.jpg" alt=""></div>
+        <div class="div_img"><img class="pincipal_img" src="img/business.jpg" alt=""></div>
         </div>
-    	</div>
-    	<div class="c_gray2" id="ancla2">
+    	</section>
+
+    	<section class="c_gray2 pos_sec" id="ancla2">
     		Servicios
-    	</div>
-    	<div class="c_gray1" id="ancla3">
+    	</section>
+
+    	<section class="c_gray1 " id="ancla3">
     		Contacto
-    	</div>
-    	<div class="c_gray2">
-    		
-    	</div>
-    	<div class="c_gray1">
-    		
-    	</div>
-    	<div class="c_gray2">
-    		
-    	</div>
+    	</section>
+    
+    
+    	
 
     </div>
-    <div class="cont_navh">
-      <ul class="ul_navh">
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-      </ul>
-    </div>
-
+    
+    <script type="text/javascript" src="js/jquery.js"> </script>
   	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-  	<script type="text/javascript" src="js/script.js"> </script> 
+  	<script type="text/javascript" src="js/script.js"> </script>
+    <script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
+  
 
   </body>
 </html>
